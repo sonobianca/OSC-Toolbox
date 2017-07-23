@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FB45253AD1601BB3BC194B /* Pods_OSC_Toolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A8E5B9C564067BD1F4CFC /* Pods_OSC_Toolbox.framework */; };
+		6C7525D01F1DA753004806FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7525CF1F1DA753004806FD /* AppDelegate.swift */; };
+		6C7525D21F1DA753004806FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7525D11F1DA753004806FD /* ViewController.swift */; };
+		6C7525D41F1DA753004806FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7525D31F1DA753004806FD /* Assets.xcassets */; };
+		6C7525D71F1DA753004806FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7525D51F1DA753004806FD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B4D75441DE8C0E4C3BEED6 /* Pods-OSC-Toolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSC-Toolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSC-Toolbox/Pods-OSC-Toolbox.release.xcconfig"; sourceTree = "<group>"; };
+		4B4ED971765A2AEEAE70BD75 /* Pods-OSC-Toolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSC-Toolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSC-Toolbox/Pods-OSC-Toolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7525CC1F1DA753004806FD /* OSC-Toolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSC-Toolbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7525CF1F1DA753004806FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C7525D11F1DA753004806FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C7525D31F1DA753004806FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7525D61F1DA753004806FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C7525D81F1DA753004806FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968A8E5B9C564067BD1F4CFC /* Pods_OSC_Toolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSC_Toolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7525C91F1DA753004806FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FB45253AD1601BB3BC194B /* Pods_OSC_Toolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7525C31F1DA753004806FD = {
+			isa = PBXGroup;
+			children = (
+				6C7525CE1F1DA753004806FD /* OSC-Toolbox */,
+				6C7525CD1F1DA753004806FD /* Products */,
+				75EB2961F72F636C5A4D1139 /* Pods */,
+				F151F2D91018E94C2480E33E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7525CD1F1DA753004806FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7525CC1F1DA753004806FD /* OSC-Toolbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7525CE1F1DA753004806FD /* OSC-Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				6C7525CF1F1DA753004806FD /* AppDelegate.swift */,
+				6C7525D11F1DA753004806FD /* ViewController.swift */,
+				6C7525D31F1DA753004806FD /* Assets.xcassets */,
+				6C7525D51F1DA753004806FD /* Main.storyboard */,
+				6C7525D81F1DA753004806FD /* Info.plist */,
+			);
+			path = "OSC-Toolbox";
+			sourceTree = "<group>";
+		};
+		75EB2961F72F636C5A4D1139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B4ED971765A2AEEAE70BD75 /* Pods-OSC-Toolbox.debug.xcconfig */,
+				18B4D75441DE8C0E4C3BEED6 /* Pods-OSC-Toolbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F151F2D91018E94C2480E33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968A8E5B9C564067BD1F4CFC /* Pods_OSC_Toolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7525CB1F1DA753004806FD /* OSC-Toolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7525DB1F1DA753004806FD /* Build configuration list for PBXNativeTarget "OSC-Toolbox" */;
+			buildPhases = (
+				CAA681C25B7D912BC68BB551 /* [CP] Check Pods Manifest.lock */,
+				6C7525C81F1DA753004806FD /* Sources */,
+				6C7525C91F1DA753004806FD /* Frameworks */,
+				6C7525CA1F1DA753004806FD /* Resources */,
+				5520526EF1163A19CDF7C70E /* [CP] Embed Pods Frameworks */,
+				4D43288C1693D334744BEB71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSC-Toolbox";
+			productName = "OSC-Toolbox";
+			productReference = 6C7525CC1F1DA753004806FD /* OSC-Toolbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7525C41F1DA753004806FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Badger Studios";
+				TargetAttributes = {
+					6C7525CB1F1DA753004806FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XD829G979M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C7525C71F1DA753004806FD /* Build configuration list for PBXProject "OSC-Toolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7525C31F1DA753004806FD;
+			productRefGroup = 6C7525CD1F1DA753004806FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7525CB1F1DA753004806FD /* OSC-Toolbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7525CA1F1DA753004806FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7525D41F1DA753004806FD /* Assets.xcassets in Resources */,
+				6C7525D71F1DA753004806FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D43288C1693D334744BEB71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSC-Toolbox/Pods-OSC-Toolbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5520526EF1163A19CDF7C70E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSC-Toolbox/Pods-OSC-Toolbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA681C25B7D912BC68BB551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7525C81F1DA753004806FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7525D21F1DA753004806FD /* ViewController.swift in Sources */,
+				6C7525D01F1DA753004806FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C7525D51F1DA753004806FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7525D61F1DA753004806FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7525D91F1DA753004806FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C7525DA1F1DA753004806FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6C7525DC1F1DA753004806FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4ED971765A2AEEAE70BD75 /* Pods-OSC-Toolbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XD829G979M;
+				INFOPLIST_FILE = "OSC-Toolbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BAS.OSC-Toolbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C7525DD1F1DA753004806FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B4D75441DE8C0E4C3BEED6 /* Pods-OSC-Toolbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XD829G979M;
+				INFOPLIST_FILE = "OSC-Toolbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BAS.OSC-Toolbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7525C71F1DA753004806FD /* Build configuration list for PBXProject "OSC-Toolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7525D91F1DA753004806FD /* Debug */,
+				6C7525DA1F1DA753004806FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7525DB1F1DA753004806FD /* Build configuration list for PBXNativeTarget "OSC-Toolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7525DC1F1DA753004806FD /* Debug */,
+				6C7525DD1F1DA753004806FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7525C41F1DA753004806FD /* Project object */;
+}

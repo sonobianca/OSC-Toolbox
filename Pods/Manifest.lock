@@ -1,0 +1,18 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - OSCKit (0.3.5):
+    - CocoaAsyncSocket (~> 7.3)
+  - String+Extensions (1.1.0)
+
+DEPENDENCIES:
+  - OSCKit
+  - String+Extensions
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  OSCKit: 4470dbd30bc792dcf66dc4e7b5d1ec7174add33c
+  String+Extensions: 4c13e40b64fcfc079f93cd94160e38b576948348
+
+PODFILE CHECKSUM: a7e84309cd3bdbff773c48662e116f37ad0fb1fb
+
+COCOAPODS: 1.2.0
